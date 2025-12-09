@@ -127,7 +127,7 @@ A aplicação do **Prompt 3 (BDD)** gerou **47 cenários Gherkin em português**
 
 ## 6. Análise de Cobertura de Testes
 
-### Pytest
+### Verificação de Cobertura Pytest
 
 A implementação de **Pytest** (via `coverage.py` + `pytest-cov`) fornece análise profissional de cobertura de código com relatórios em múltiplos formatos.
 

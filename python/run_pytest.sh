@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Script para executar JaCoCo (Coverage.py) - Análise de Cobertura de Testes
+# Script para executar  (Coverage.py) - Análise de Cobertura de Testes
 
-echo "📊 Iniciando análise de cobertura com JaCoCo (coverage.py)..."
+echo "📊 Iniciando análise de cobertura com PYTEST (coverage.py)..."
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo ""
 
