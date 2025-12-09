@@ -3,3 +3,4 @@ approvaltests
 pytest-approvaltests
 coverage
 pytest-cov
+cosmic-ray
