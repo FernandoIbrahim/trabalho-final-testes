@@ -1,8 +1,8 @@
-# 📊 JaCoCo - Code Coverage Analysis
+# 📊 Pytest - Code Coverage Analysis
 
 ## Visão Geral
 
-**JaCoCo** (Java Code Coverage) é uma ferramenta profissional de análise de cobertura de código. Para projetos em **Python**, utilizamos o equivalente: **`coverage.py`** com a integração **`pytest-cov`**.
+**Pytest** (Java Code Coverage) é uma ferramenta profissional de análise de cobertura de código. Para projetos em **Python**, utilizamos o equivalente: **`coverage.py`** com a integração **`pytest-cov`**.
 
 ---
 
@@ -76,7 +76,7 @@ As linhas 36, 41 e 192 não cobrem cenários extremos/improvável no contexto da
 
 ---
 
-## 📊 Como Usar JaCoCo (Coverage.py)
+## 📊 Como Usar Pytest (Coverage.py)
 
 ### 1. Instalação
 ```bash
@@ -188,7 +188,7 @@ output = coverage.xml       # Nome do arquivo XML
 
 ### GitHub Actions
 ```yaml
-- name: Run Coverage with JaCoCo
+- name: Run Coverage with Pytest
   run: |
     cd python
     python3 -m pytest tests/ --cov=gilded_rose --cov-report=xml
@@ -261,4 +261,4 @@ python3 -m coverage report -m
 | **Teste Quality** | ✅ Alta | Todos os caminhos testados |
 | **Recomendação** | ✅ Produção | Pronto para deploy |
 
-**JaCoCo (Coverage) confirma: Código testado, confiável e pronto para produção!** 🚀
+**Pytest (Coverage) confirma: Código testado, confiável e pronto para produção!** 🚀

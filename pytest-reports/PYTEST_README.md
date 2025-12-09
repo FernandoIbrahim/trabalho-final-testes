@@ -1,8 +1,8 @@
-# 🏆 JaCoCo - Análise de Cobertura de Testes
+# 🏆 Pytest - Análise de Cobertura de Testes
 
 ## Implementação Completa ✅
 
-Este projeto implementa **JaCoCo** (code coverage) com sucesso utilizando `coverage.py` e `pytest-cov`.
+Este projeto implementa **Pytest** (code coverage) com sucesso utilizando `coverage.py` e `pytest-cov`.
 
 ---
 
@@ -66,13 +66,13 @@ coverage.xml  (4.1KB)
 
 ---
 
-## 🚀 Como Executar JaCoCo
+## 🚀 Como Executar Pytest
 
 ### Opção 1: Script Automático
 ```bash
 cd python
-chmod +x run_jacoco.sh
-./run_jacoco.sh
+chmod +x run_Pytest.sh
+./run_Pytest.sh
 ```
 
 ### Opção 2: Comando Manual
@@ -175,7 +175,7 @@ sonar.coverage.exclusions=**/tests/**
 ## 📚 Documentação Completa
 
 Para detalhes técnicos, ver:
-- `JACOCO_COVERAGE_REPORT.md` - Guia completo com exemplos
+- `Pytest_COVERAGE_REPORT.md` - Guia completo com exemplos
 
 ---
 
@@ -199,7 +199,7 @@ Para detalhes técnicos, ver:
    ```
 
 2. **Monitorar Cobertura**:
-   - Executar JaCoCo em cada commit
+   - Executar Pytest em cada commit
    - Rastrear histórico em `coverage.json`
    - Alertar se cair abaixo de 90%
 
@@ -210,4 +210,4 @@ Para detalhes técnicos, ver:
 
 ---
 
-**JaCoCo implementado com sucesso! Code Coverage: 97% ✅** 🏆
+**Pytest implementado com sucesso! Code Coverage: 97% ✅** 🏆
