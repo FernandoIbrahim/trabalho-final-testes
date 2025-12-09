@@ -17,6 +17,7 @@ O projeto inclui:
 - Refatoração seguindo Clean Code e padrões de projeto  
 - Geração de cenários BDD  
 - Análise dos prompts utilizados  
+- **Implementação de JaCoCo para análise de cobertura de testes**
 - Demonstração do processo no vídeo final
 
 ---
@@ -121,5 +122,32 @@ A aplicação do **Prompt 1 (Testes)** gerou uma suíte de **77 testes parametri
 A aplicação do **Prompt 2 (Refatoração)** transformou o código original de 47 linhas em uma solução de 216 linhas bem estruturada em `python/gilded_rose.py`, implementando **Strategy Pattern** com 4 atualizadores específicos (Normal, AgedBrie, BackstagePass, Sulfuras) e **Factory Pattern** para seleção dinâmica. Os **5 princípios SOLID** foram aplicados, reduzindo nesting de 6+ para 2 níveis (67% de melhoria) e alcançando 100% DRY compliance. Todos os 77 testes continuam passando (regressão zero) com 97% de cobertura no código refatorado.
 
 A aplicação do **Prompt 3 (BDD)** gerou **47 cenários Gherkin em português** em `bdd-prompt-results/GILDED_ROSE_BDD.feature`, organizados em 8 categorias (Normal Items, Aged Brie, Backstage Passes, Sulfuras, Conjured Items, Multiple Items, Boundary Conditions, Quality Bounds) aplicando 4 técnicas de teste diferentes (Boundary Value, Equivalence Partitioning, Sequential, Invariant). Foram implementados **20+ steps Python** em `python/tests/conftest_bdd.py` compatíveis com pytest-bdd, behave e cucumber. Cobertura comportamental: 100%.
+
+---
+
+## 6. Análise de Cobertura de Testes
+
+### JaCoco
+
+A implementação de **JaCoCo** (via `coverage.py` + `pytest-cov`) fornece análise profissional de cobertura de código com relatórios em múltiplos formatos.
+
+#### 📊 Resultados JaCoCo
+
+| Métrica | Resultado | Status |
+|---------|-----------|--------|
+| **Line Coverage** | 97.03% (86/89 linhas) | ✅ Excelente |
+| **Branch Coverage** | 100% (12/12 branches) | ✅ Perfeito |
+| **Total de Testes** | 77 | ✅ Todos Passando |
+| **Tempo Execução** | 0.10s | ✅ Ótimo |
+
+#### 📁 Arquivos Gerados
+
+- **`coverage_html_report/`** - Relatório HTML interativo com cores (verde=coberto, vermelho=não coberto)
+- **`coverage.json`** - Dados estruturados para CI/CD
+- **`coverage.xml`** - Compatível com SonarQube, Jenkins, GitLab
+- **`.coveragerc`** - Configuração de cobertura
+- **`run_jacoco.sh`** - Script para executar análise
+
+
 
 ---
