@@ -55,23 +55,18 @@ Eles serão demonstrados também no vídeo final da entrega.
 
 ## 3.1 Criação da Suíte de Testes (100% de Cobertura)
 
-### **Prompt 1 (ENGLISH)**
+### **Prompt  (ENGLISH)**
 > You are now a software testing expert specialized in Python and TDD.  
 > Analyze the Gilded Rose Refactoring Kata code below and generate a complete unit test suite using `pytest`, achieving 100% line and branch coverage.  
 > Apply Boundary Testing, Equivalence Partitioning, and parametrized tests.  
 > Provide the final code in a single file named `test_gilded_rose.py`.
 
-### **Prompt 2 (ENGLISH)**
-> Act as a senior QA engineer.  
-> Based on the Gilded Rose Kata code, create an automated unit test suite achieving 100% coverage.  
-> Use mocks when necessary, and cover all special cases (Aged Brie, Backstage Pass, Sulfuras, Conjured, normal items).  
-> At the end, also generate a summary of which scenarios ensure full coverage.
 
 ---
 
 ## 3.2 Refatoração com Clean Code + Padrões de Projeto
 
-### **Prompt 1 (ENGLISH)**
+### **Prompt  (ENGLISH)**
 > You are an expert in Clean Code and refactoring.  
 > Refactor the entire Gilded Rose Kata applying:  
 > - Strategy Pattern  
@@ -81,25 +76,14 @@ Eles serão demonstrados também no vídeo final da entrega.
 > - Small cohesive methods  
 > Provide the final refactored code and a brief explanation of the improvements made.
 
-### **Prompt 2 (ENGLISH)**
-> Act as an experienced software architect.  
-> Fully refactor the Gilded Rose code using appropriate design patterns to eliminate complex conditionals.  
-> Implement individual strategies for each item type and reorganize the code following Clean Architecture principles.  
-> Deliver the full refactored code and a justification of the architectural decisions.
-
 ---
 
 ## 3.3 Geração de Cenários BDD
 
-### **Prompt 1 (ENGLISH)**
+### **Prompt (ENGLISH)**
 > You are now a BDD specialist.  
 > Generate Gherkin scenarios (Given/When/Then) describing all behaviors of the Gilded Rose system: normal items, Aged Brie, Backstage Pass, Sulfuras, and Conjured.  
 > Create at least 10 scenarios, covering minimum and maximum boundaries of quality and sell-in values.
-
-### **Prompt 2 (ENGLISH)**
-> Act as a Product Owner writing BDD acceptance criteria.  
-> Create detailed Gherkin scenarios describing the daily behavior of each special item type in the Gilded Rose system.  
-> Ensure the scenarios are readable by business stakeholders and suitable for automation in Cucumber/Behave.
 
 ---
 
