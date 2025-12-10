@@ -10,7 +10,7 @@ A abordagem combina técnicas modernas de colaboração humano-IA, incluindo **C
 
 ## 📌 1. Objetivo Geral
 
-Demonstrar como a utilização de IA generativa pode auxiliar no desenvolvimento orientado a testes, na refatoração para aumento de qualidade e na documentação comportamental do sistema, utilizando Python como linguagem de programação e Claude Sonnet 4.5 como modelo de IA generativa.
+Demonstrar como a utilização de IA generativa pode auxiliar no desenvolvimento orientado a testes, na refatoração para aumento de qualidade e na documentação comportamental do sistema, utilizando **Python** como linguagem de programação e **Claude Sonnet 4.5** como modelo de IA generativa.
 O projeto inclui:
 
 - Criação de suíte de testes com 100% de cobertura  
