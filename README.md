@@ -3,6 +3,14 @@
 Este documento descreve o processo adotado para aplicar **engenharia de prompt**, testes automatizados, geração de cenários BDD e refatoração de código utilizando o **Gilded Rose Refactoring Kata (Emily Bache)** como base.  
 A abordagem combina técnicas modernas de colaboração humano-IA, incluindo **Chain-of-Thought**, **Persona Pattern** e prompts iterativos.
 
+## Membros da equipe:
+- Renato Matos 
+- Fernando Antônio
+- Luca Ferrari
+- Pedro Braga
+- Gabriel Pongelupe
+- Arhur Ferreira
+
 > ⚠️ **Observação Importante:**  
 > Os prompts utilizados estão em **inglês**, pois modelos de IA apresentam melhor desempenho, precisão e compreensão técnica quando recebem instruções nessa língua.
 
